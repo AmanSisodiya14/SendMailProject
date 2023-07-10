@@ -12,7 +12,7 @@ app.get('/send',sendmail);
 const start = async () =>{
     try{
         app.listen(PORT,()=>{
-            console.log("Start")
+            console.log("Start the server")
         })
     }catch(error){}
 
